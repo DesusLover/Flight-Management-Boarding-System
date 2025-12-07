@@ -1,16 +1,40 @@
-# ✈️ Airlines-seat-reservation-boarding-pass-issuance-and-aircraft-boarding
+# ✈️ Flight-Management-Boarding-System
 This website is similar to the process of web login before flight boarding. This application has two users: passengers and airport agents
 
 ## Basic functionalities
-1. Given that the passenger hasn't already registered, will allow to create an account. 
-2. The passenger needs to finish KYC by uploading a pdf of any ID.
-3. Given that the passenger has already booked a ticket, willl allow to link the PNR number to their account, view all the list bookings done so far.
-4. The passenger can reserve a seat for their bookings, once checked out, will be able to get their boarding pass also will be able to print it(Ctrl P).
-5. The boarding pass will contain the passenger details, scannable QR code of their PNR number, seat number and extra cost that needs to be paid in case the seat reserved is a window seat.
-6. The aiport agent will be able to scan the QR code and check the passenger details
-7. The airport agent can enter the flight ID and grab the passenger list.
-8. The agent can accept upon scanning a particular boarding pass, and reject if the passenger is boarding a wrong flight(Where upon scanning the QR code will not be able to get any details).
-9. Both passengers and agents can update/modify their profiles.
+1. User Registration & KYC Verification
+New User Onboarding: Enables first-time users to create secure accounts with validated credentials
+Identity Verification: Requires KYC completion through authenticated government ID document upload (PDF format)
+Secure Profile Creation: Establishes verified passenger profiles for subsequent flight operations
+
+2. Booking Management & Account Integration
+PNR Association: Allows users to link existing flight reservations (via PNR codes) to their verified accounts
+Booking History: Provides comprehensive view of all associated flight reservations in chronological order
+
+Reservation Consolidation: Centralizes all travel bookings within a single passenger profile
+
+3. Seat Selection & Boarding Pass Generation
+Advanced Seat Reservation: Interactive seat map interface for selecting preferred seating positions
+Automated Checkout: Secure payment processing with transparent pricing breakdown
+Digital Boarding Pass Generation: Instant production of boarding passes post-checkout completion
+Print Functionality: Standard browser printing capability (Ctrl+P) for physical boarding pass production
+
+4. Boarding Pass Specifications
+Comprehensive Passenger Details: Full name, flight information, departure/arrival data
+Security Features: Scannable QR code encoding PNR number for verification
+Seat Information: Clearly displayed seat assignment with visual indicators
+Transparent Pricing: Itemized cost breakdown including premium seat surcharges (e.g., window seat fees)
+
+5. Airport Agent Management Portal
+QR Code Scanning: Real-time passenger verification through boarding pass QR code scanning
+Flight Manifest Access: Retrieval of complete passenger lists via flight ID input
+Boarding Control: Authorization system to accept or deny passenger boarding based on verification results
+Security Validation: Automated rejection of invalid boarding passes (wrong flight, expired, fraudulent)
+
+6. Profile Management System
+Dual-User Profile Updates: Both passengers and airport agents can modify and maintain their respective profiles
+Secure Information Management: Protected personal and operational data management for all user types
+Role-Based Access Control: Differentiated profile management capabilities based on user roles and permissions
 
 ## ℹ️ Languages/Technologies used
 1. Frontend: HTML, CSS, Bootstarp, JavaScript.
@@ -23,8 +47,7 @@ This website is similar to the process of web login before flight boarding. This
 3. Java JDk
 
 ## ❓ How to start?
-1. Refer [This](https://github.com/Chandana047/Blood-Bank-Management-System/blob/main/README.md#question-how-to-start)
-2. Make sure that database created is named as 'airliness'(the same name as the .sql file in sql folder).
+1. Make sure that database created is named as 'airliness'(the same name as the .sql file in sql folder).
 
 ## :information_source: The file named:
 1. 'css' contains the files for the front end pages style.
@@ -32,17 +55,6 @@ This website is similar to the process of web login before flight boarding. This
 3. 'image' contains images used in the front end.
 4. 'sql' contains the database file that has to be imported.
 5. 'Output Screenshots' contains the screenshots of the implementation.
-
-## :family_man_woman_boy_boy: Team:
-- Chandana G V - [Chandana](https://github.com/Chandana047)
-- Rithish Reddy - [Rithish](https://github.com/Rithish7007)
-- Balaji Subash - [Subash](https://github.com/gbsubash)
-- SriHarsha - [Harsha](https://github.com/Sriharshajasti123)
-- Varun
-- Mounish
-
-## ✉️ Have an issues or a bug? Would like to contact?
-Report [here](https://github.com/Chandana047/Airlines-seat-reservation-boarding-pass-issuance-and-aircraft-boarding/issues)
 
 ## If you liked the project and found it helpful
 Give a start 😄:star:
